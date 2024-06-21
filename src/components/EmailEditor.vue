@@ -21,10 +21,10 @@ export default {
     tools: Object,
     appearance: Object,
     locale: String,
-    displayMode:{
+    displayMode: {
       type: String,
       required: false,
-      default: "email"
+      default: 'email',
     },
     minHeight: {
       type: String,
